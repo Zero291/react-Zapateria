@@ -11,7 +11,14 @@ module.exports = {
     },
     mode: 'development',
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        alias: {
+            '@components': path.resolve(__dirname, 'src/components'),
+            '@containers': path.resolve(__dirname, 'src/containers'),
+            '@styles': path.resolve(__dirname, 'src/styles'),
+            '@icons': path.resolve(__dirname, 'src/assets/Icons'),
+            '@logos': path.resolve(__dirname, 'src/assets/Logos'),
+        }
     },
     module: {
         rules: [
@@ -41,11 +48,7 @@ module.exports = {
         {
             test: /\.(png|jpg|svg|jpeg|webp)$/,
         /*aquí en test agregas la expresión regular para procesar los diferentes tipos de imagenes que tengas.*/
-            type: 'asset/resource',
-            generator: {
-            filename: 'assets/pictures/[hash][ext]',
-        /*aquí en filename pones la carpeta en donde quieres que se guarden tus imagenes (le agrego el [hash] para evitar problemas con el cache, además [ext] hace referencia a la extensión del archivo que se haya procesado).*/
-            }
+            type: 'asset'
         }
         ]
     },

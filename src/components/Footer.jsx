@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/Footer.scss';
 
+import Facebook from '@icons/FbIcon.png';
+import Instagram from '@icons/InstaIcon.png';
+import WhatsApp from '@icons/WhaIcon.png';
 
 const Footer = () =>{
     return(
@@ -17,9 +20,9 @@ const Footer = () =>{
                     <li className="list-inline-item"><a href="#">Contáctanos</a></li>
                     <li className="list-inline-item"><a href="#" /></li>
                     <li className="list-inline-item">
-                        <a href="https://www.facebook.com/profile.php?id=100087983379808"><img style={{height: 35, width: 35}} src="./Icons/FbIcon.png" alt="FacebookIcon" /></a>
-                        <a href="https://www.instagram.com/zalia.10/"><img style={{height: 35, width: 35}} src="./Icons/InstaIcon.png" alt="InstagramIcon" /></a>
-                        <a href="https://wa.link/bmd6aj"><img style={{height: 35, width: 35}} src="./Icons/WhaIcon.png" alt="WhatsAppIcon" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100087983379808"><img style={{height: 35, width: 35}} src={Facebook} alt="FacebookIcon" /></a>
+                        <a href="https://www.instagram.com/zalia.10/"><img style={{height: 35, width: 35}} src={Instagram} alt="InstagramIcon" /></a>
+                        <a href="https://wa.link/bmd6aj"><img style={{height: 35, width: 35}} src={WhatsApp} alt="WhatsAppIcon" /></a>
                     </li>
                     <li className="list-inline-item"><a href="#" /></li>
                 </ul>

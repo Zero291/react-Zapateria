@@ -1,5 +1,7 @@
-import React from 'react';s
-import '../styles/WhoAreWe.scss'
+import React from 'react';
+import '../styles/WhoAreWe.scss';
+
+import Logo from '@logos/Zai.svg';
 
 const WhoAreWe = () =>{
     return(
@@ -11,7 +13,7 @@ const WhoAreWe = () =>{
             <h3>Nacio de tener calzado de la más alta calidad pero en base a las tendencias del momento.</h3>
             <h3>Teniendo una variedad de calzado para esos momentos en los que quieras dar a relucir tu mejor estilo.</h3>
             <br />
-            <img className="logo1" src="./Logos/Zai.svg" alt="Logo" />
+            <img className="logo1" src={Logo} alt="Logo" />
             <br /> <br />
             <div style={{display: 'flex'}}>
                 <div className="contenido">

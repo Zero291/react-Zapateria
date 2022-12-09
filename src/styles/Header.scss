@@ -9,7 +9,7 @@ nav {
 .menu {
 	display: none;
 }
-.logo {
+.nav-logo {
 	width: 100px;
 }
 .navbar-left ul,
@@ -30,7 +30,7 @@ nav {
 .navbar-left ul li a,
 .navbar-right ul li a {
 	text-decoration: none;
-	color: var(--very-light-pink);
+	color: var(--hospital-green);
 	border: 1px solid var(--white);
 	padding: 8px;
 	border-radius: 8px;
@@ -41,7 +41,7 @@ nav {
 	color: var(--hospital-green);
 }
 .navbar-email {
-	color: var(--very-light-pink);
+	color: var(--hospital-green);
 	font-size: var(--sm);
 	margin-right: 12px;
 }
@@ -72,4 +72,7 @@ nav {
 	.navbar-email {
 		display: none;
 	}
+}
+@media (min-width: 641px){
+	
 }

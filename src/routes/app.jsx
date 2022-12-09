@@ -10,6 +10,7 @@ import MyAccount from '../pages/MyAccount';
 import CreateAccount from '../pages/CreateAccount';
 import Checkout from '../pages/Checkout';
 import Orders from '../pages/Orders';
+import WhoAreWe from '../pages/WhoAreWe';
 import NotFound from '../pages/NotFound';
 import '../styles/global.css';
 
@@ -26,6 +27,7 @@ const App = () => {
 					<Route exact path="/account" component={MyAccount} />
 					<Route exact path="/signup" component={CreateAccount} />
 					<Route exact path="/checkout" component={Checkout} />
+					<Route exact path="/who-are-we" component={WhoAreWe} />
 					<Route exact path="/orders" component={Orders} />
 					<Route path="*" component={NotFound} />
 				</Switch>
