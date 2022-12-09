@@ -20,9 +20,9 @@ const App = () => {
 	const initialState = useInitialState();
 	return (
 		<AppContext.Provider value={initialState}>
-			<BrowserRouter ="/react-Zapateria" >
+			<BrowserRouter>
 				<Layout>
-					<Routes>
+					<Route>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/login" component={Login} />
 						<Route exact path="/password-recovery" component={PasswordRecovery} />
@@ -34,7 +34,7 @@ const App = () => {
 						<Route exact path="/who-are-we" component={WhoAreWe} />
 						<Route exact path="/orders" component={Orders} />
 						<Route path="*" component={NotFound} />
-					</Routes>
+					</Route>
 				</Layout>
 			</BrowserRouter>
 		</AppContext.Provider>
