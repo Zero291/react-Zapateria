@@ -20,7 +20,7 @@ const App = () => {
 	const initialState = useInitialState();
 	return (
 		<AppContext.Provider value={initialState}>
-			<BrowserRouter ='/react-Zapateria' >
+			<BrowserRouter ="/react-Zapateria" >
 				<Layout>
 					<Routes>
 						<Route exact path="/" component={Home} />
