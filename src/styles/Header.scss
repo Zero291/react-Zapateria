@@ -1,7 +1,11 @@
 @import 'vars';
 
 nav {
-	height: 55px;
+	position: sticky;
+	top: 0;
+	background-color: var(--bond);
+	height: 64px;
+	width: 93%;
 	display: flex;
 	justify-content: space-between;
 	padding: 0 24px;
