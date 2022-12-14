@@ -6,7 +6,7 @@ const MyAccount = () => {
 		<div className="MyAccount">
 			<div className="MyAccount-container">
 				<h1 className="title">Mi cuenta</h1>
-				<form action="/" className="form">
+				<form action="/password-recovery" className="form">
 					<div>
 						<label for="name" className="label">Nombre</label>
 						<p className="value">Axel J. Rojas Hernández</p>

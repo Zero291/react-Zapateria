@@ -9,7 +9,7 @@ const Menu = () =>{
                 <a href="/" className="title">Mis ordenes</a>
                 </li>
                 <li>
-                <a href="/">Mi cuenta</a>
+                <a href="/login">Mi cuenta</a>
                 </li>
                 <li>
                 <a href="/">Cerrar sesión</a>

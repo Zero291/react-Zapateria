@@ -23,27 +23,21 @@ const Header = () =>{
 
     return(
         <nav>
-            <img src={menu} alt="menu" className='menu' onClick={() => setToggleMenu(!toggleMenu)} />
+            <img src={menu} alt="menu" className='menu' onClick={() => setToggleMenu(!tsoggleMenu)} />
             <div className="navbar-left">
                 <img src={logo} alt="logo" className="nav-logo" />
                 <ul>
                 <li>
-                    <a href="#">Página inicio</a>
+                    <a href="/home">Página inicio</a>
                 </li>
                 <li>
-                    <a href="#">Quienes somos</a>
+                    <a href="/who-are-we">Quienes somos</a>
                 </li>
                 <li>
-                    <a href="#">Catálogo</a>
+                    <a href="/">Catálogo</a>
                 </li>
                 <li>
-                    <a href="#">Ubicación</a>
-                </li>
-                <li>
-                    <a href="#">Contáctanos</a>
-                </li>
-                <li>
-                    <a href="#">Mi cuenta</a>
+                    <a href="/login">Mi cuenta</a>
                 </li>
                 </ul>
             </div>

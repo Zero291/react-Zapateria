@@ -11,6 +11,7 @@ import CreateAccount from '../pages/CreateAccount';
 import Checkout from '../pages/Checkout';
 import Orders from '../pages/Orders';
 import WhoAreWe from '../pages/WhoAreWe';
+import Catalogo from '../pages/Home';
 import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
 import NotFound from '../pages/NotFound';
@@ -33,6 +34,7 @@ const App = () => {
 						<Route exact path="/checkout" component={Checkout} />
 						<Route exact path="/who-are-we" component={WhoAreWe} />
 						<Route exact path="/orders" component={Orders} />
+						<Route exact path="/catalogo" component={Catalogo} />
 						<Route path="*" component={NotFound} />
 					</Route>
 				</Layout>

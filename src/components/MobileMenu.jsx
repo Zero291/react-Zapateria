@@ -8,19 +8,13 @@ const MobileMenu = () =>{
     <div className="mobile-menu">
         <ul className="categories">
             <li>
-            <a href="#">Página de inicio</a>
+            <a href="/home">Página de inicio</a>
             </li>
             <li>
-            <a href="/">Quienes somos</a>
+            <a href="/who-are-we">Quienes somos</a>
             </li>
             <li>
-            <a href="/">Catálogo</a>
-            </li>
-            <li>
-            <a href="/">Ubicación</a>
-            </li>
-            <li>
-            <a href="/">Contáctanos</a>
+            <a href="/catalogo">Catálogo</a>
             </li>
         </ul>
         <ul>

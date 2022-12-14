@@ -12,12 +12,12 @@ const Footer = () =>{
                 <hr style={{backgroundColor: 'aquamarine'}} />
                 <br />
                 <ul className="list-inline">
-                    <li className="list-inline-item"><a href="#">Página inicio</a></li>
-                    <li className="list-inline-item"><a href="#">Quienes somos</a></li>
-                    <li className="list-inline-item"><a href="#">Catálogo</a></li>
-                    <li className="list-inline-item"><a href="#">Ubicación</a></li>
+                    <li className="list-inline-item"><a href="/home">Página inicio</a></li>
+                    <li className="list-inline-item"><a href="/who-are-we">Quienes somos</a></li>
+                    <li className="list-inline-item"><a href="/">Catálogo</a></li>
+                    <li className="list-inline-item"><a href="#"></a></li>
                     <li className="list-inline-item"><a href="#" /></li>
-                    <li className="list-inline-item"><a href="#">Contáctanos</a></li>
+                    <li className="list-inline-item"><a href="#"></a></li>
                     <li className="list-inline-item"><a href="#" /></li>
                     <li className="list-inline-item">
                         <a href="https://www.facebook.com/profile.php?id=100087983379808"><img style={{height: 35, width: 35}} src={Facebook} alt="FacebookIcon" /></a>
